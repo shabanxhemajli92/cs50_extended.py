@@ -1,4 +1,6 @@
+import pdb
 
+pdb.set_trace()
 def main():
     student = get_Person()
     print(f"{student['name']} {student['Last Name']} was born on {student['birth date']} in {student['where were you born']} and lives in {student['Where do you live']}")
